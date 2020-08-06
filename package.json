@@ -1,0 +1,23 @@
+{
+  "name": "insomna-plugin-uuid",
+  "version": "1.0.0",
+  "main": "plugin.js",
+  "insomnia": {                    
+    "name": "uuid",
+    "displayName": "UUID Generator",
+    "description": "Generates UUID tokens",
+    "publisher": {
+      "name": "George Arscott",
+      "icon": "https://..."
+    },
+    "applications": { 
+      "designer": "*",
+      "core": "*",
+      "cli": "*"
+     }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "uuid": "8.3.0"
+  }
+}
